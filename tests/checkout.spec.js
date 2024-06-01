@@ -17,7 +17,7 @@ test.describe('Checkout Functionality', () => {
   // Login with your user, add 1 item to the basket, click on checkout, add a new address,
   // fill in the address form, click on submit
   test('Checkout with 1 item', async ({ page }) => {
-    await page.pause()
+    // await page.pause()
 
     const product = new ProductPage(page)
     const basket = new YourBasketPage(page)
@@ -49,7 +49,7 @@ test.describe('Checkout Functionality', () => {
   // Login with your user, add 2 item to the basket, click on checkout, add a new address,
   // fill in the address form, click on submit
   test('Checkout with 2 items', async ({ page }) => {
-    await page.pause()
+    // await page.pause()
 
     const product = new ProductPage(page)
     const basket = new YourBasketPage(page)
