@@ -11,6 +11,10 @@ test.describe('Search Functionality', () => {
     await login.login('dr32.zneb@gmail.com', 'P@ssw0rd')
   })
 
+  // Scenario 3
+  // Click on the search button, search for apple, verify that 2 apple products show up
+  // and that banana product does not show up
+
   test('Search for product', async ({ page }) => {
     const searchItem = new SearchResultsPage(page)
 
